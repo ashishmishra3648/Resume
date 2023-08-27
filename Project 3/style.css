@@ -1,0 +1,145 @@
+/* CSS RESET
+*{
+    margin: 0px;
+    padding: 0px;
+}*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */
+    color: rgb(44, 234, 177);
+
+}
+
+#logo img{
+    width: 100%;
+    height: 75px;
+   
+}
+
+#logo{
+    width: 5%;
+    margin: 4px 10px;
+  
+} 
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background: #000;
+    z-index: -1;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+   
+}
+#navbar ul li{
+   list-style: none;
+}
+#navbar ul li a{
+   display: block;
+   margin: 5px 25px;
+   padding: 6px 50px;
+   text-decoration: none;
+   color: rgb(6, 241, 202);
+
+}
+#navbar ul li a:hover{
+    background: #0c0c0c;
+    color: yellow;
+    border-radius: 15px;
+   
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    margin: -16px 30px;
+    color: rgb(94, 60, 5);
+}
+#home p{
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    font-size: 1.21rem;
+    
+}
+#home h1{
+   
+    font-size: 2.891rem;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(bg1.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    color: rgb(34, 22, 162);
+   
+}
+#aboutme{margin-top: 252px;
+    height: 1300px;
+    width: 100%;
+    border: 2px solid black;
+}
+#aboutme .container{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+#aboutme .container #box-1{
+    height: 635px;
+    width: 731px;
+    border: 2px solid red;
+    margin: 60px;
+    padding: 50px;
+    font-size: 21px;
+   
+}
+
+#aboutme .container #box-1 p{
+    padding: 5px;
+ 
+   
+}
+
+
+
+#aboutme .container #box-4{
+display: flex;
+   
+    height: 535px;
+    width: 712px;
+    border: 2px solid orangered;
+    margin-left: 450px;
+    margin-top: 15px; 
+    align-items: center;
+    justify-content: center;
+   
+   
+ 
+   
+}
+#aboutme .container #box-3{
+    /* display: flex; */
+    height: 377px;
+    width: 975px;
+    border: 2px solid rgb(226, 15, 117);
+    margin-left: 277px;
+    margin-top: 45px;
+  text-align: center;
+    /* justify-content: center; */
+   
+} 
